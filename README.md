@@ -223,15 +223,7 @@ We cannot stress this enough when we say make your class names **<span style="te
 
 
 2. theme.scss.liquid
-
-<p style="text-align: right">
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/GlobalCode3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="screenshots/GlobalCode3.png" width="" alt="alt_text" title="image_tooltip">
-</p>
+![alt_text](screenshots/GlobalCode3.png "image_tooltip")
 
 
 3. theme.js
@@ -257,6 +249,7 @@ NOTE:
 
 *   Should you ever lose this, you can make a new one or… reuse this
 *   Instafeed Token: 795759130.1677ed0.57136535758c4b75a6e2793e292c3e27
+
 
 **Google Maps API Implementation:**
 
