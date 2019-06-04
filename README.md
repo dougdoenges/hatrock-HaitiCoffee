@@ -131,10 +131,10 @@ One of the crucial differences between the homepage is that the UI for moving se
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/FINAL-DOCUMENTATION1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/Homepage2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](screenshots/FINAL-DOCUMENTATION1.png "image_tooltip")
+![alt_text](screenshots/Homepage2.png "image_tooltip")
 
 
 **How to Create a New Page:**
@@ -145,10 +145,10 @@ One of the crucial differences between the homepage is that the UI for moving se
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/FINAL-DOCUMENTATION2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/Pages1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](screenshots/FINAL-DOCUMENTATION2.png "image_tooltip")
+![alt_text](screenshots/Pages1.png "image_tooltip")
 
 
 
@@ -157,10 +157,10 @@ One of the crucial differences between the homepage is that the UI for moving se
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/FINAL-DOCUMENTATION3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/Pages2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](screenshots/FINAL-DOCUMENTATION3.png "image_tooltip")
+![alt_text](screenshots/Pages2.png "image_tooltip")
 
 
 
@@ -169,10 +169,10 @@ One of the crucial differences between the homepage is that the UI for moving se
 
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/FINAL-DOCUMENTATION4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/Pages3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](screenshots/FINAL-DOCUMENTATION4.png "image_tooltip")
+![alt_text](screenshots/Pages3.png "image_tooltip")
 
 
 [https://community.shopify.com/c/Shopify-Discussion/Alternate-templates-not-showing-up-in-the-template-dropdown/m-p/261324](https://community.shopify.com/c/Shopify-Discussion/Alternate-templates-not-showing-up-in-the-template-dropdown/m-p/261324) 
