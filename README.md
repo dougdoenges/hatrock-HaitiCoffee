@@ -235,12 +235,6 @@ We cannot stress this enough when we say make your class names **<span style="te
 
 
 3. theme.js
-
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/GlobalCode4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](screenshots/GlobalCode4.png "image_tooltip")
 
 
@@ -253,29 +247,12 @@ This is the line of code you need to initiate the Instagram feed.
 NOTE:
 
 
-
 *   This is based off of the app options on the apps portion of your Shopify dashboard
-
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/IGFeed1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](screenshots/IGFeed1.png "image_tooltip")
 
 
-
-
 *   This is what the app looks like and the customizations (color coded) available
-
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/IGFeed2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](screenshots/IGFeed2.png "image_tooltip")
-
-
 
 
 *   Should you ever lose this, you can make a new one or… reuse this
@@ -285,23 +262,12 @@ NOTE:
 
 The API key that is currently being used is from one of our personal accounts. However, we will provide a means to create a new API key for you to use. We will assume that you have a Google account already made.
 
+
 Step 1:
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/GoogleMaps1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](screenshots/GoogleMaps1.png "image_tooltip")
 
 
 Step 2: 
-
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/GoogleMaps2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](screenshots/GoogleMaps2.png "image_tooltip")
 
 
@@ -321,4 +287,5 @@ Step 4, Part 2:
 Step 4, Part 3:
 ![alt_text](screenshots/GoogleMaps7.png "image_tooltip")
 
+That is all to get you up to speed!
 <!-- Docs to Markdown version 1.0β17 -->
