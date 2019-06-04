@@ -231,10 +231,10 @@ We cannot stress this enough when we say make your class names **<span style="te
 
 
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/FINAL-DOCUMENTATION9.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/GlobalCode1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](screenshots/FINAL-DOCUMENTATION9.png "image_tooltip")
+![alt_text](screenshots/GlobalCode1.png "image_tooltip")
 
 
 ** Three Files to be Wary of **
@@ -245,10 +245,10 @@ We cannot stress this enough when we say make your class names **<span style="te
 
 
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/FINAL-DOCUMENTATION10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to screenshots/GlobalCode2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](screenshots/FINAL-DOCUMENTATION10.png "image_tooltip")
+![alt_text](screenshots/GlobalCode2.png "image_tooltip")
 
 
 2. theme.scss.liquid
