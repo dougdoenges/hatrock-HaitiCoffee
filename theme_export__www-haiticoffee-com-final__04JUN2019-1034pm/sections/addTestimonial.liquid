@@ -1,0 +1,24 @@
+<div class="" style="margin-top: 10px;">
+  <a href="{{ section.settings.testimonial_link }}">
+	<button class="btn">Submit a Testimonial</button>
+  </a>
+</div>
+
+{% schema %}
+  {
+    "name": "Add Testimonial Link",
+    "settings": [
+		{
+			"type": "text",
+			"id": "testimonial_link",
+			"label": "Link to Testimonial"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,36 @@
+<div class="container" style="height: 30%; width: 100%;">
+<div class="row">
+   {% for blog in blogs.Dev.articles limit: 3 %}
+    <div class="col col-sm-12 col-md-6 col-lg-4 d-flex">
+          <div class="card">
+            <a href={{ blog.url}}>
+              <img class="card-img-top"
+                   style="margin-bottom: 10px;"
+                   class="grid-view-item__image lazyload"
+                   src="{{ blog.image | img_url: '300x300' }}"
+                   data-src="{{ img_url }}"
+                   data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="{{ blog.image.aspect_ratio }}"
+                   data-sizes="auto"
+                   alt="{{ blog.image.alt | escape }}">
+              <div class="card-body">
+                <p>{{ blog.title | strip_html | truncatewords: 5 }}</p>
+              </div>
+            </a>
+          </div>
+    	</div>
+   {% endfor %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Small Blog Posts",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,117 @@
+<html>
+  <!-- head -->
+  <head>
+    <meta charset="utf-8">
+    
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. 
+       * CSS for the map */
+      #map {
+        height: 600px;
+        width: 100%;
+      }
+
+      /* CSS for the "Drop Markers" button */
+      #floating-panel {
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+		margin: auto;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+      }
+    </style>
+    
+  </head>
+  
+  <!-- body -->
+  <body>
+    
+    <h1>Locations</h1>
+    
+    <div id="floating-panel">
+      <button id="drop" onclick="drop()">Drop Markers</button>
+    </div>
+    
+    <div id="map"></div>
+    
+    <!-- script for marker logic -->
+    <script>
+
+      // If you're adding a number of markers, you may want to drop them on the map
+      // consecutively rather than all at once. This example shows how to use
+      // window.setTimeout() to space your markers' animation.
+
+      // Use this array of objects to add the WeWorks or shop locations you need
+      // lat = latitude, lng = longitude, address = location's address
+      var neighborhoods = [
+        {lat: 47.624298, lng: -122.330452, address: "500 Yale Ave N, Seattle, WA 98109"},
+        {lat: 47.612381, lng: -122.337532, address: "1601 5th Ave, Seattle, WA 98101"},
+        {lat: 47.616474, lng: -122.332497, address: "1099 Stewart St, Seattle, WA 98101"},
+        {lat: 47.613238, lng: -122.334400, address: "1600 7th Ave, Seattle, WA 98101"},
+        {lat: 47.609369, lng: -122.336186, address: "1411 4th Ave, Seattle, WA 98101"},
+        {lat: 47.605518, lng: -122.333252, address: "925 4th Ave, Seattle, WA 98104"},
+        {lat: 47.604939, lng: -122.337624, address: "107 Spring St, Seattle, WA 98104"}
+      ];
+
+      var markers = [];
+      var map;
+
+      // initiates map
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          // zoom: The higher value represents how much the map is zoomed in
+          zoom: 13,
+          // center: Controls where the exact center of the map when loaded is
+          center: {lat: 47.6062, lng: -122.3321} 
+        });
+      }
+
+      // Once the "Drop Marker" button is clicked, it will drop all the locations one by one
+      function drop() {
+        clearMarkers();
+        // Runs through the array and drop markers at the locations
+        for (var i = 0; i < neighborhoods.length; i++) {
+          addMarkerWithTimeout(neighborhoods[i], i * 200, neighborhoods[i].address);
+        }
+      }
+
+      // Takes in position (lat and long), timeout (the delay between each marker drop), and address
+      // the value you see when you hover over a pin
+      function addMarkerWithTimeout(position, timeout, address) {
+        window.setTimeout(function() {
+          markers.push(new google.maps.Marker({
+            position: position,
+            map: map,
+            title: address,
+            animation: google.maps.Animation.DROP
+          }));
+        }, timeout);
+      }
+
+      function clearMarkers() {
+        for (var i = 0; i < markers.length; i++) {
+          markers[i].setMap(null);
+        }
+        markers = [];
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHvPdIUKQK6N_KT7M6iMQOTMoT6igt_VY&callback=initMap">
+    </script>
+  </body>
+</html>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

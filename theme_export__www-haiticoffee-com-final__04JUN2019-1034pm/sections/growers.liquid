@@ -1,0 +1,62 @@
+<div class="row border-top-solid-light">
+  <div class="col col-sm-12 col-md-12">
+	<!-- Will need to change this to grower specific blog -->
+  	{% for article in blogs[ "Dev" ].articles %}
+    	<div class="col col-sm-12 col-md-6 col-lg-4 d-flex">
+          <div class="card">
+            <a href={{ article.url}}>
+              <img class="card-img-top"
+                   class="grid-view-item__image lazyload"
+                   src="{{ article.image | img_url: '300x300' }}"
+                   data-src="{{ img_url }}"
+                   data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="{{ article.image.aspect_ratio }}"
+                   data-sizes="auto"
+                   alt="{{ article.image.alt | escape }}">
+              <div class="card-body">
+                <p>{{article.title}}</p>
+              </div>
+            </a>
+          </div>
+    	</div>
+    {% endfor %}
+  </div>
+  {% comment %}
+    <div class="col col-sm-12 col-md-2">
+      <div class="row">
+        <div class="col col-sm-12">
+        </div>
+      </div>
+      <div class="row">
+        <p>Blog Tags</p>
+        <div class="col col-sm-12 col-md-2">
+          <ul class="tag-menu">
+            <li><a href="https://www.haiticoffee.com/pages/growers">All</a></li>
+            {% for tag in blog["Dev"].all_tags %}
+              <li>{{ tag | link_to_tag: tag }}{% unless forloop.last %}, {% endunless %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  {% endcomment %}
+</div>
+
+{% schema %}
+  {
+    "name": "Growers",
+    "settings": [
+		{
+          "type": "text",
+          "id": "blog_handle",
+          "label": "Blog Handle"
+      	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

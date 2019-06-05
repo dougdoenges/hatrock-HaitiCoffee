@@ -1,0 +1,34 @@
+<div class="hero hero--{{ section.settings.hero_size }}{% if section.settings.title != blank or section.settings.text != blank or section.settings.button_label != blank %} hero__overlay{% endif %} box ratio-container lazyload js"
+     {% if section.settings.image %}
+     data-bgset="{% include 'bgset', image: section.settings.image %}"
+     data-sizes="100%"
+     style="background-position: {{ section.settings.alignment }}; background-image: url('{{ section.settings.image | img_url: '300x300' }});"
+     {% endif %}>                                                                     
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Our Community</h1>
+              
+            </div>
+        </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "IndexImage",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+	],
+		"presets": [
+      {
+        "name": "Image Header",
+        "category": "Image"
+      }]
+  }
+{% endschema %}
+

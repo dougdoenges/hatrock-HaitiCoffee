@@ -1,0 +1,37 @@
+<div class="container" style="height: 40%; width: 100%; margin-bottom: 30px;">
+  <h2>Featured Article</h2>
+  {% for article in blogs.news.articles limit: 2 %}
+  {% if forloop.first != true %}
+  <div class="article">
+    <h3>{{ article.title }}</h3>
+    <div class="rte">
+      <a href={{ article.url}}>
+        <img class="card-img-top"
+          class="grid-view-item__image lazyload"
+          src="{{ article.image | img_url: '300x300' }}"
+          data-src="{{ img_url }}"
+          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+          data-aspectratio="{{ article.image.aspect_ratio }}"
+          data-sizes="auto"
+          alt="{{ article.image.alt | escape }}">
+        {% if article.excerpt.size > 0 %}
+        {{ article.excerpt }}
+        {% else %}
+        <p style = "color:black">{{ article.content | strip_html | truncatewords: 50 }}</p>
+        {% endif %}
+      </a>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% schema %}
+{
+"name": "Big Blog Post",
+"settings": []
+}
+{% endschema %}
+{% stylesheet %}
+{% endstylesheet %}
+{% javascript %}
+{% endjavascript %}
